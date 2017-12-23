@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="Homepage van samoov" >
+		<meta name="keywords" content="Massage,Relaxatie,Jongeren">
+        <meta name="viewport" content="width=device-width, height=device-height" />
+        <link rel="stylesheet" href="opmaak/main.css">
+        <link rel="shortcut icon" href="foto/Main-logo.jpg"/>
+		<title>Samoov.be | Contact</title>
+    
+	</head>
+    <body>
+          <script src="scripts/maps.js"></script>  
+        <nav>
+                <ul id="navlist">
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="samoov.html">Samoov</a> </li> 
+                <li><a href="massage.html">Massage</a> </li>
+                <li><a href="relaxatie.html">Relaxatie</a></li>
+                <li><a href="tarieven.html">Tarieven</a></li>
+                <li><a class='active' href="contact.html">Contact</a></li>
+                
+                </ul>    
+            </nav>
+                  <img src="foto/Main-logo.jpg" alt="Logo Samoov" style="margin: auto;" id="logo"  >
+            <hr>
+<section>
+        <form>
+  <fieldset>
+    <legend>Neem contact op met Samoov</legend>
+    Naam*:<br>
+    <input type="text" name="naam" autofocus required><br>
+    E-Mail*:<br>
+    <input type="text" name="email" required ><br>
+      Onderwerp*:<br>
+      <input type="text" name="onderwerp" required ><br>
+      Bericht*:<br>
+      <textarea name="bericht" rows="10" cols="30" required>
+
+</textarea><br>
+      
+      
+      
+    <input type="submit" value="Submit">
+      <input type="reset"><br>
+      
+      Velden met een * moeten worden ingevuld
+  </fieldset>
+</form>
+    
+    
+        </section>
+        
+        <section>
+             <div id="map"></div>
+        </section>
+        
+        
+        
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzJ4-VbPXgv-vJSJBmneYGOdYc32ZO6Dw&callback=initMap">
+    </script>
+	</body>
+</html>
